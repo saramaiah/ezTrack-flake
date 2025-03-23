@@ -1,7 +1,7 @@
 {
   description = "A flake for running video analysis with ezTrack.";
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
   };
   outputs = {
     self,
@@ -30,7 +30,6 @@
         scikit-learn = pkgs.python39Packages.scikit-learn;
         matplotlib = pkgs.python39Packages.matplotlib;
         tqdm = pkgs.python39Packages.tqdm;
-        ipython = pkgs.python39Packages.ipython;
       });
     };
 }
