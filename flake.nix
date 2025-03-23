@@ -30,6 +30,7 @@
         scikit-learn = pkgs.python39Packages.scikit-learn;
         matplotlib = pkgs.python39Packages.matplotlib;
         tqdm = pkgs.python39Packages.tqdm;
+        ipython = pkgs.python39Packages.ipython;
       });
     };
 }
