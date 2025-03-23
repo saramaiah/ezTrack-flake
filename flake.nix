@@ -30,6 +30,7 @@
         scikit-learn = pkgs.python313Packages.scikit-learn;
         matplotlib = pkgs.python313Packages.matplotlib;
         tqdm = pkgs.python313Packages.tqdm;
+        pycryptodome = pkgs.python313Packages.pycryptodome;
       });
     };
 }
