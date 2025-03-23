@@ -17,7 +17,7 @@
       eachSupportedSystem = f: nixpkgs.lib.genAttrs supportedSystems (system: f (import nixpkgs {inherit system;}));
     in {
       packages = eachSupportedSystem (pkgs: {
-        python = pkgs.python313;
+        python = pkgs.python39;
         jupyter = pkgs.jupyter-all;
         numpy = pkgs.python313Packages.numpy;
         scipy = pkgs.python313Packages.scipy;
