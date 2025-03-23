@@ -18,17 +18,18 @@
     in {
       packages = eachSupportedSystem (pkgs: {
         python = pkgs.python39;
-        numpy = pkgs.python3.9-numpy;
-        scipy = pkgs.python3.9-scipy;
-        pandas = pkgs.python3.9-pandas;
-        opencv = pkgs.python3.9-opencv4;
-        holoviews = pkgs.python3.9-holoviews;
-        bokeh = pkgs.python3.9-bokeh;
-        pyviz-comms = pkgs.python3.9-pyviz-comms;
-        jinja2 = pkgs.python3.9-jinja2;
-        scikit-learn = pkgs.python3.9-scikit-learn;
-        matplotlib = pkgs.python3.9-matplotlib;
-        tqdm = pkgs.python3.9-tqdm;
+        jupyter = pkgs.python39Packages.jupyter;
+        numpy = pkgs.python39Packages.numpy;
+        scipy = pkgs.python39Packages.scipy;
+        pandas = pkgs.python39Packages.pandas;
+        opencv = pkgs.python39Packages.opencv4;
+        holoviews = pkgs.python39Packages.holoviews;
+        bokeh = pkgs.python39Packages.bokeh;
+        pyviz-comms = pkgs.python39Packages.pyviz-comms;
+        jinja2 = pkgs.python39Packages.jinja2;
+        scikit-learn = pkgs.python39Packages.scikit-learn;
+        matplotlib = pkgs.python39Packages.matplotlib;
+        tqdm = pkgs.python39Packages.tqdm;
       });
     };
 }
