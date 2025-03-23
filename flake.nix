@@ -18,7 +18,7 @@
     in {
       packages = eachSupportedSystem (pkgs: {
         python = pkgs.python313;
-        jupyter = pkgs.python313Packages.jupyter;
+        jupyter = pkgs.jupyter-all;
         numpy = pkgs.python313Packages.numpy;
         scipy = pkgs.python313Packages.scipy;
         pandas = pkgs.python313Packages.pandas;
