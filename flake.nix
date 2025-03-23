@@ -18,7 +18,7 @@
     in {
       packages = eachSupportedSystem (pkgs: {
         python = pkgs.python39;
-        jupyter = pkgs.python3.9-jupyter;
+        jupyter = pkgs.python3.9-notebook;
         numpy = pkgs.python3.9-numpy;
         scipy = pkgs.python3.9-scipy;
         pandas = pkgs.python3.9-pandas;
